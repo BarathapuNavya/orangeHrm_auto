@@ -1,0 +1,4 @@
+com\orangehrm\pages\AddEmpPage.class
+com\orangehrm\pages\LoginPage.class
+com\orangehrm\tests\AddEmpTest.class
+com\orangehrm\tests\LoginTest.class

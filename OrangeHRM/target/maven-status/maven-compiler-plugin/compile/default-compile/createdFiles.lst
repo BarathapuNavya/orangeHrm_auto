@@ -1,0 +1,6 @@
+com\framework\reports\ExtentReportsUtil.class
+com\framework\base\BaseTest.class
+com\framework\dataaccess\PropertyUtil.class
+com\framework\reports\ExtentReport.class
+com\framework\base\BasePage.class
+com\framework\dataaccess\ExcelUtil.class

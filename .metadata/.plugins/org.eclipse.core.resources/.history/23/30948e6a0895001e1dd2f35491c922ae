@@ -1,0 +1,18 @@
+package com.orangehrm.tests;
+
+import org.testng.annotations.Test;
+
+import com.framework.base.BaseTest;
+import com.orangehrm.pages.AddEmpPage;
+
+public class AddEmpTest extends BaseTest {
+	@Test
+	public void AddEmpDetails() {
+	AddEmpPage addEmployee  = new AddEmpPage(getDriver());
+	addEmployee.login(getData("Username"),getData("Password"));
+	addEmployee.AddEmpDetails(getData("fname"),getData("reddy"));
+	addEmployee.verifyRecord(ExpectedId);
+	
+	}
+
+}

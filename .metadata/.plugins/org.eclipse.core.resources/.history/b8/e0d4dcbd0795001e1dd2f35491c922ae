@@ -1,0 +1,10 @@
+package com.orangehrm.tests;
+
+import com.framework.base.BaseTest;
+import com.orangehrm.pages.AddEmpPage;
+
+public class AddEmpTest extends BaseTest {
+	AddEmpPage AddEmployee = new AddEmpPage(getDriver());
+	AddEmployee.login(getData("Username"),getData("Password"));
+
+}
